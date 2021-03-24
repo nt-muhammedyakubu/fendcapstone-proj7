@@ -12,13 +12,13 @@ You will be building a travel application which pulls in multiple types of data,
 
 You have learn all the technical skills needed for this project and as you go along building the travel map, some of these questions will come up
 
-•	What’s the ideal workflow?
-•	How many files do I need?
-•	How do I convert one project into another?
-•	Should I redo the HTML/CSS first or go straight to the javascript?
-•	How many JavaScript functions do I need?
-•	Should my function be this many lines of code?
-•	Is readability or performance more important?
+•	What’s the ideal workflow?<br>
+•	How many files do I need?<br>
+•	How do I convert one project into another?<br>
+•	Should I redo the HTML/CSS first or go straight to the javascript?<br>
+•	How many JavaScript functions do I need?<br>
+•	Should my function be this many lines of code?<br>
+•	Is readability or performance more important?<br>
 
 The answers to the question will all be answered as you go on in the project.
 
@@ -65,10 +65,10 @@ Can refer to project 4 for reference.
 
 ### Get the webpack going
 
-Remember that webpack builds a dist file. So, server.js needs to be updated to access the dist file. [Hint: app.use(express. .....)]
+Remember that webpack builds a dist file. So, server.js needs to be updated to access the dist file. [Hint: app.use(express. .....)]<br>
 
-Next, update the scripts in package.json i.e. test, dev, start and build.
-```NOTE:``` Start for express server, dev will be so that you can take the advantage of web dev server which can be run with one command depending on the set up.
+Next, update the scripts in package.json i.e. test, dev, start and build.<br>
+```NOTE:``` Start for express server, dev will be so that you can take the advantage of web dev server which can be run with one command depending on the set up.<br>
 
 #### Get webpack config set up
 
@@ -91,12 +91,12 @@ Integrating the ```Weatherbit API``` is similar to how the ```geonames api``` is
 Just the same way you created account with ```Weatherbit api``` and ```geonames api```.
 
 Note: 
-- The information to submit to the API to achieve an appropriate image.
-- What parameters to set to pull in images
-- How to submit your data from the location field to a ```pixabay URL parameters``` without having spaces in the url?
-An item should be choosen from the suggested list to add in.
+- The information to submit to the API to achieve an appropriate image.<br>
+- What parameters to set to pull in images<brr>
+- How to submit your data from the location field to a ```pixabay URL parameters``` without having spaces in the url?<br>
+An item should be choosen from the suggested list to add in.<br>
 
-REST Countries API is integrated to pull in data for the country being visited.
+REST Countries API is integrated to pull in data for the country being visited.<br>
 
 ##### Refactoring
 
@@ -104,9 +104,9 @@ Refactor as much as possible as you develop. After cleaning the project up. Add 
 
 ###### References
 
-```http://www.geonames.org/```
+```http://www.geonames.org/```<br>
 ```https://www.weatherbit.io/api```
-```https://restcountries.eu/#api-endpoints```
-```https://pixabay.com/api/docs/```
-```https://pixabay.com/photos/dubai-skyline-city-architecture-2292779/```
+```https://restcountries.eu/#api-endpoints```<brr>
+```https://pixabay.com/api/docs/```<br>
+```https://pixabay.com/photos/dubai-skyline-city-architecture-2292779/```<br>
 
