@@ -1,0 +1,25 @@
+.hero h1 {
+    font-size: 5em;
+    margin: 0em;
+    margin-top: 0.5em;
+}
+
+.hero .btn {
+    display: block;
+    width: 200px;
+    padding: 1em;
+    margin-top: 50em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid white;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    background-image: url('../img/dubai-2292779_640.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}

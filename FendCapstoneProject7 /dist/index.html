@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Project</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap" rel="stylesheet">
+
+<link href="main.css" rel="stylesheet"></head>
+
+<body>
+    <header>
+        <h1>Udacity Project 7 - Travel App</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-inner">
+                <h1>My Travel Planner</h1>
+                <h2>Dubai! City of Amazing Glory!</h2>
+                <a href="https://www.baisantravel.com/tours/half-day-dubai-city-tour-18155#pickup_point" class="btn">Explore it!!!</a>
+            </div>
+        </section>
+        <p>The earliest written record of Dubai (Dibei) is accredited to Muhammad al-Idrisi, who mapped the coast of the UAE in the tenth century AD.<br> Circa 1580, the state jeweler of Venice, Gasparo Balbi documented the pearling industry of Dubai and
+            other cities currently presiding in UAE territory.<br> Though traditionally conservative, the UAE is one of the most liberal countries in the Gulf, with other cultures and beliefs generally tolerated.<br>
+        </p>
+
+        <section>
+            <div class="city holder">
+                <label for="city">Enter city here</label>
+                <input type="text" id="city" placeholder="enter city here">
+                <button type="button">Click</button>
+                <label for="tripStartDate">Trip start date</label>
+                <input type="text" id="tripStartDate" placeholder="enter start date">
+                <button type="button">Click</button>
+                <label for="tripEndDate">Trip End date</label>
+                <input type="text" id="tripEndDate" placeholder="enter end date">
+                <button type="button">Click</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="tripCountDown">
+            <label for="tripCountDown"></label>
+            <input type="text" id="tripCountDown" placeholder="enter remaining date">
+            <button type="button">Click</button>
+        </div>
+        <table class="countdowncontainer">
+            <tr class="tableInfo">
+                <td colspan="3">My travel countdown</td>
+            </tr>
+            <tr class="countdownInfo">
+                <td id='days'>120</td>
+                <td id='hours'>4</td>
+                <td id='minutes'>12</td>
+                <td id='Seconds'>22</td>
+
+            </tr>
+            <tr>
+                <td>Days</td>
+                <td>Hours</td>
+                <td>Minutes</td>
+                <td>Seconds</td>
+            </tr>
+        </table>
+
+    </footer>
+    <script>
+        // Check that service workers are supported
+        if ('serviceWorker' in navigator) {
+            // Use the window load event to keep the page load performance
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js').then(registration => {
+                    console.log('service worker registration is successful')
+                });
+
+            });
+        } else {
+            console.log('service worker are not supported');
+        }
+    </script>
+
+<script type="text/javascript" src="main.js"></script></body>
+
+</html>

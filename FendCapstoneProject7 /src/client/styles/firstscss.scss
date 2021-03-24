@@ -1,0 +1,33 @@
+body {
+    margin: 0em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Sizing the hero */
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.countdownContainer {
+    background-color: lightpink;
+    text-align: center;
+    border: 0.5em;
+    padding: 5em;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: 0 0 5px 3px grey;
+}
+
+font {
+    font-size: 25px;
+}
