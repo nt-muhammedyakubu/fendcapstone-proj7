@@ -52,14 +52,14 @@ Use the skills in project 4 to get the development environment going.
 
 Although, names of the folders may vary.
 
-- Install the dependencies as required 
+- Install the dependencies as required<br>
 
-.npm i -D @babel/core @babel/preset-env babel-loader
-.npm i -D style-loader node-sass css-loader sass-loader
-.npm i -D clean-webpack-plugin
-.npm i -D html-webpack-plugin
-.npm i -D mini-css-extract-plugin
-.npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin etc.,
+npm i -D @babel/core @babel/preset-env babel-loader<br>
+npm i -D style-loader node-sass css-loader sass-loader<br>
+npm i -D clean-webpack-plugin<br>
+npm i -D html-webpack-plugin<br>
+npm i -D mini-css-extract-plugin<br>
+npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin etc.,
 
 Can refer to project 4 for reference.
 
