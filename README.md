@@ -105,7 +105,7 @@ Refactor as much as possible as you develop. After cleaning the project up. Add 
 ###### References
 
 ```http://www.geonames.org/```<br>
-```https://www.weatherbit.io/api```
+```https://www.weatherbit.io/api```<br>
 ```https://restcountries.eu/#api-endpoints```<brr>
 ```https://pixabay.com/api/docs/```<br>
 ```https://pixabay.com/photos/dubai-skyline-city-architecture-2292779/```<br>
