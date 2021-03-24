@@ -54,12 +54,12 @@ Although, names of the folders may vary.
 
 - Install the dependencies as required 
 
-npm i -D @babel/core @babel/preset-env babel-loader
-npm i -D style-loader node-sass css-loader sass-loader
-npm i -D clean-webpack-plugin
-npm i -D html-webpack-plugin
-npm i -D mini-css-extract-plugin
-npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin etc.,
+.npm i -D @babel/core @babel/preset-env babel-loader
+.npm i -D style-loader node-sass css-loader sass-loader
+.npm i -D clean-webpack-plugin
+.npm i -D html-webpack-plugin
+.npm i -D mini-css-extract-plugin
+.npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin etc.,
 
 Can refer to project 4 for reference.
 
