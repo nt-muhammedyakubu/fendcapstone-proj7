@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Project</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1>Udacity Project 7 - Travel App</h1>
+    </header>
+    <div class="planner">
+        <h2>My Trip Planner</h2>
+        <h2>This is an Amazing City</h2>
+    </div>
+
+    <main>
+        <section>
+            <img id="image">
+            <div id='cityHolder'></div>
+            <form class='tripPlanner'>
+                <input id="city" type="text" name="city" value="" placeholder="Please enter a city">
+                <input id="tripStartDate" type="date" name="tripStartDate" value="" placeholder="Please enter start date">
+                <input id="tripEndDate" type="date" name="tripEndDate" value="" placeholder="Please enter end date">
+                <input type="submit" value="submit">
+            </form>
+        </section>
+        <section>
+            <strong>Results</strong>
+        </section>
+        <div class="results">
+            <p id='trip'></p>
+            <p id="depart"></p>
+            <p id="return"></p>
+            <p id='tripLength'></p>
+            <p id='days'></p>
+            <p id="weather"></p>
+            <p id="temp"></p>
+            <p id='description'></p>
+        </div>
+    </main>
+    <footer>
+        <p><i>UdacityFendCapstone: 2021</i></p>
+    </footer>
+    <script>
+        // Check that service workers are supported
+        if ('serviceWorker' in navigator) {
+            // Use the window load event to keep the page load performance
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js').then(registration => {
+                    console.log('service worker registration is successful')
+                });
+
+            });
+        } else {
+            console.log('service worker are not supported');
+        }
+    </script>
+</body>
+
+</html>
