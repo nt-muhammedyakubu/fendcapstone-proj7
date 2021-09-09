@@ -6,11 +6,11 @@ This is Project 7 of the Front End Web Developer. It aims to pull all the skills
 
 ## What to build.
 
-You will be building a travel application which pulls in multiple types of data, from different sources and occasionally one API will be required to get data from another API. The project will include a simple form where you enter the location you are traveling to and the date you are leaving. If the trip is within a week, you will get the current weather forecast. If the trip is in the future, you will get a predicted forecast. The ```Weatherbit API ```is going to be used which only takes in coordinates for weather data from ```Geonames API```. Once we have all of this data, you will want to display an image of the location entered; for this, you will be using the ```Pixabay API```. One thing to note is to plan out the logic of what you want build and it is recommended that after you meet the minimum requirements in the rubric, you continue debugging the UX and improve the project.
+I will be building a travel application which pulls in multiple types of data, from different sources and occasionally one API will be required to get data from another API. The project will include a simple form where the user enters the location traveling to and the date of the travelling. If the trip is within a week, the user will get the current weather forecast. If the trip is in the future,  the user will get a predicted forecast. The ```Weatherbit API ```is going to be used which only takes in coordinates for weather data from ```Geonames API```. Once we have all of this data, a display of an image of the location entered is displayed; for this, the ```Pixabay API```is used. One thing to note is to plan out the logic of whatever it is been build and it is recommended that after the meet the minimum requirements in the rubric, continue debugging the UX and improve the project.
 
 ### What to learn
 
-You have learn all the technical skills needed for this project and as you go along building the travel map, some of these questions will come up
+All all the technical skills needed for this project has been during the ccourse and go along building the travel map, some questions may come up such as
 
 •	What’s the ideal workflow?<br>
 •	How many files do I need?<br>
@@ -18,9 +18,9 @@ You have learn all the technical skills needed for this project and as you go al
 •	Should I redo the HTML/CSS first or go straight to the javascript?<br>
 •	How many JavaScript functions do I need?<br>
 •	Should my function be this many lines of code?<br>
-•	Is readability or performance more important?<br>
+•	Is readability or performance more important?<br> and so on
 
-The answers to the question will all be answered as you go on in the project.
+The answers to the question will all be provided in the course of project.
 
 #### Getting started
 
@@ -92,15 +92,15 @@ Just the same way you created account with ```Weatherbit api``` and ```geonames 
 
 Note: 
 - The information to submit to the API to achieve an appropriate image.<br>
-- What parameters to set to pull in images<brr>
+- What parameters to set to pull in images<br>
 - How to submit your data from the location field to a ```pixabay URL parameters``` without having spaces in the url?<br>
-An item should be choosen from the suggested list to add in.<br>
+An item should be choosen from the suggested list to add in<br>
 
 REST Countries API is integrated to pull in data for the country being visited.<br>
 
 ##### Refactoring
 
-Refactor as much as possible as you develop. After cleaning the project up. Add the service worker. Refer to project 4 for guidance. In case you are adding any suggested task in the project Roadmap/Strategy, It is recommended to hold off the service worker until about to submit.
+Refactoring as much as possible is necessary as the development is going on. After cleaning the project up. Then add the service worker. But, in case any suggestion still needs to be added in the project Roadmap/Strategy, then hold off the service worker until about to submit.
 
 ###### References
 
