@@ -6,11 +6,11 @@ This is Project 7 of the Front End Web Developer. It aims to pull all the skills
 
 ## What to build.
 
-I will be building a travel application which pulls in multiple types of data, from different sources and occasionally one API will be required to get data from another API. The project will include a simple form where the user enters the location traveling to and the date of the travelling. If the trip is within a week, the user will get the current weather forecast. If the trip is in the future,  the user will get a predicted forecast. The ```Weatherbit API ```is going to be used which only takes in coordinates for weather data from ```Geonames API```. Once we have all of this data, a display of an image of the location entered is displayed; for this, the ```Pixabay API```is used. One thing to note is to plan out the logic of whatever it is been build and it is recommended that after the meet the minimum requirements in the rubric, continue debugging the UX and improve the project.
+I will be building a travel application which pulls in multiple types of data, from different sources and occasionally one API will be required to get data from another API. The project will include a simple form where the user enters the location traveling to and the date of the travelling. If the trip is within a week, the users gets the current weather forecast. If the trip is in the future,  the user gets a predicted forecast. The ```Weatherbit API ```is going to be used which only takes in coordinates for weather data from ```Geonames API```. Once all of this data has been obtained, a display of an image of the location entered is displayed; for this, the ```Pixabay API```is used. One thing to note is to plan out the logic of whatever it is been built and it is recommended that after meeting the minimum requirements in the rubric, continue debugging the UX and improve the project.
 
 ### What to learn
 
-All all the technical skills needed for this project has been during the ccourse and go along building the travel map, some questions may come up such as
+All the technical skills needed for this project has been acquired during the ccourse and going along building the travel map, some questions may come up such as
 
 •	What’s the ideal workflow?<br>
 •	How many files do I need?<br>
@@ -20,7 +20,7 @@ All all the technical skills needed for this project has been during the ccourse
 •	Should my function be this many lines of code?<br>
 •	Is readability or performance more important?<br> and so on
 
-The answers to the question will all be provided in the course of project.
+The answers to the questions will all be provided in the course of building project.
 
 #### Getting started
 
