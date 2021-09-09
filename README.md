@@ -20,7 +20,7 @@ All the technical skills needed for this project has been acquired during the cc
 •	Should my function be this many lines of code?<br>
 •	Is readability or performance more important?<br> and so on
 
-The answers to the questions will all be provided in the course of building project.
+The answers to the questions will all be provided in the course of building the project.
 
 #### Getting started
 
