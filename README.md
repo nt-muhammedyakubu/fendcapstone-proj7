@@ -2,7 +2,7 @@
 
 # Project summary
 
-This is Udacity - Project 7 of the Front End Web Developer. It aims to pull all the skills learnt in the course of the program. The project is very JavaScript heavy, but it is still expected to create clean and appealing HTML/CSS. It will also be targeting the DOM, working with objects, and retrieving data from 3 APIs in which one is reliant on another to work. Finally, all these is going to be done in a Webpack environment, using an express server, and wrapped up with service workers.The code need to be refactor and test as much as possible while building. 
+This is Project 7 of the Front End Web Developer. It aims to pull all the skills learnt in the course of the program. The project is very JavaScript heavy, but it is still expected to create clean and appealing HTML/CSS. It will also be targeting the DOM, working with objects, and retrieving data from 3 APIs in which one is reliant on another to work. Finally, all these is going to be done in a Webpack environment, using an express server, and wrapped up with service workers.The code need to be refactor and test as much as possible while building. 
 
 ## What to build.
 
